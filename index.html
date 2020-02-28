@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyWeather</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Una Web Application molto utile, che permette di verificare il meteo della propria città.
+    Sviluppato da Alessio Sanseverino">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth:400,700&display=swap" rel="stylesheet">
+
+  <link href="dist/main.7bf29a9afed288702ff4.css" rel="stylesheet"></head>
+  <body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Message" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Contenuto dinamico</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          Contenuto dinamico
+          </div>
+          <div class="modal-footer">
+            <button id="closebutton" type="button" class="btn btn-secondary modalbutton" data-dismiss="modal">Chiudi</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div  id="content">
+
+
+
+
+<div style="width:100%;" class="d-flex justify-content-center">
+<div id="header">
+<h1>MyWeather</h1>
+<p class="author">Realizzato da: <span>Alessio Sanseverino</span> </p>
+<p class="description">Digita la tua località:</p>
+<div id="city-input">
+<input type="search" placeholder="Esempio: Roma">
+<button id="confirm-city" type="button" name="button">Cerca</button>
+</div>
+</div>
+</div>
+<div  id="days">
+<div id="days-container"  class="container-fluid d-flex ">
+
+
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-center " id="show-day">
+<div class="day-show-content">
+</div>
+</div>
+<div class="bg">
+</div>
+
+  <script type="text/javascript" src="dist/main.f029305bd09e92a1fc00.js"></script></body>
+</html>
